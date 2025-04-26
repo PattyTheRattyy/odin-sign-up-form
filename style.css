@@ -9,11 +9,15 @@
   
   * {
     margin: 0;
+    border: dashed red 2px
   }
   
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
   }
   
   img, picture, video, canvas, svg {
@@ -34,4 +38,36 @@
   }
   h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
+  }
+
+
+
+
+
+  .left-side {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+  }
+
+  .right-side {
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .logo-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  .left-side > footer {
+    display: flex;
+    justify-content: center;
   }
