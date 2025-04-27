@@ -9,7 +9,7 @@
   
   * {
     margin: 0;
-    border: dashed red 2px
+    border: dashed blue 1px
   }
   
   body {
@@ -50,7 +50,14 @@
     flex-direction: column;
     justify-content: space-evenly;
 
+    color: white;
+    background-image: url(assets/halie.jpg);
+
+
+    width: 35%;
+
   }
+
 
   .right-side {
     flex: 2 1 auto;
@@ -58,16 +65,61 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    background-color: lightgrey;
+
+
+    width: 65%;
   }
 
   .logo-div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: rgb(0 0 0 / 30%)
   }
 
 
   .left-side > footer {
     display: flex;
     justify-content: center;
+
   }
+
+
+  .logo-img {
+    max-width:100px;
+    max-height:100px;
+  }
+
+  button {
+    background-color: #596D48;
+  }
+
+  .form-div {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: white;
+
+  }
+
+
+  .first-p {
+    display: flex;
+    flex: auto;
+  }
+
+  .second-p {
+    display: flex;
+    flex: auto;
+  }
+
+  .bottom-p {
+    display: flex;
+    flex: auto;
+  }
+
+  .right-side > * {
+    width: 100%;
+  }
+
